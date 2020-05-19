@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f28bc52-f703-4aae-b0c0-2b82dd75f1c8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="c2c19cfd-3b43-4b27-911d-1c7615903463" />
+  <component name="ProjectId" id="1YTct8OD7SXwYQbb4fgVKwc9Rr4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bert-Chinese-Text-Classification-Pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="smoothing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bert-Chinese-Text-Classification-Pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smoothing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sushen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bert-Chinese-Text-Classification-Pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sushen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bert-Chinese-Text-Classification-Pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bert-Chinese-Text-Classification-Pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/update.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.trick" />
+        <item itemvalue="Python.sushen" />
+        <item itemvalue="Python.update" />
+        <item itemvalue="Python.smoothing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f28bc52-f703-4aae-b0c0-2b82dd75f1c8" name="Default Changelist" comment="" />
+      <created>1582970236331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582970236331</updated>
+      <workItem from="1582970243165" duration="1360000" />
+      <workItem from="1583054626330" duration="377000" />
+      <workItem from="1583117463198" duration="4277000" />
+      <workItem from="1583122531415" duration="2058000" />
+      <workItem from="1583138241325" duration="13585000" />
+      <workItem from="1583153803079" duration="1692000" />
+      <workItem from="1583156092935" duration="1010000" />
+      <workItem from="1583210359863" duration="15177000" />
+      <workItem from="1583302932795" duration="134000" />
+      <workItem from="1583556354106" duration="727000" />
+      <workItem from="1584351197942" duration="3942000" />
+      <workItem from="1584355888236" duration="10000" />
+      <workItem from="1584356254644" duration="607000" />
+      <workItem from="1584420460145" duration="1288000" />
+      <workItem from="1584422651568" duration="598000" />
+      <workItem from="1584428222242" duration="1119000" />
+      <workItem from="1584429516131" duration="9489000" />
+      <workItem from="1584446977761" duration="1178000" />
+      <workItem from="1584453398904" duration="637000" />
+      <workItem from="1584495568397" duration="630000" />
+      <workItem from="1584503737158" duration="2347000" />
+      <workItem from="1584508997410" duration="2363000" />
+      <workItem from="1584542393612" duration="35037000" />
+      <workItem from="1584682309443" duration="684000" />
+      <workItem from="1584683978900" duration="12916000" />
+      <workItem from="1584700424237" duration="4974000" />
+      <workItem from="1584759913783" duration="61000" />
+      <workItem from="1584759996283" duration="141000" />
+      <workItem from="1584760240960" duration="5298000" />
+      <workItem from="1584928031147" duration="20684000" />
+      <workItem from="1584975073391" duration="599000" />
+      <workItem from="1585014993582" duration="6630000" />
+      <workItem from="1585128227078" duration="95000" />
+      <workItem from="1585128399137" duration="1990000" />
+      <workItem from="1585283483052" duration="3151000" />
+      <workItem from="1585291718232" duration="9966000" />
+      <workItem from="1585363927191" duration="1048000" />
+      <workItem from="1585543621401" duration="1674000" />
+      <workItem from="1585553633404" duration="8000" />
+      <workItem from="1586322107107" duration="3380000" />
+      <workItem from="1586336932530" duration="3000" />
+      <workItem from="1586336962809" duration="290000" />
+      <workItem from="1586620247787" duration="415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="865" y="116" key="FileChooserDialogImpl" timestamp="1586337251809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="865" y="116" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586337251809" />
+    <state width="1493" height="305" key="GridCell.Tab.0.bottom" timestamp="1585023042945">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="305" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585023042945" />
+    <state width="1493" height="305" key="GridCell.Tab.0.center" timestamp="1585023042944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="305" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585023042944" />
+    <state width="1493" height="305" key="GridCell.Tab.0.left" timestamp="1585023042943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="305" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585023042943" />
+    <state width="1493" height="305" key="GridCell.Tab.0.right" timestamp="1585023042945">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="305" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585023042945" />
+    <state x="198" y="109" key="SettingsEditor" timestamp="1585015551491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="198" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585015551491" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_preprocess.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$bert.coverage" NAME="bert Coverage Results" MODIFIED="1584689297201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$trick.coverage" NAME="trick Coverage Results" MODIFIED="1584961582397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$class_balanced_loss.coverage" NAME="class_balanced_loss Coverage Results" MODIFIED="1584615943323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$bert_RNN.coverage" NAME="bert_RNN Coverage Results" MODIFIED="1584689304024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$smoothing.coverage" NAME="smoothing Coverage Results" MODIFIED="1584702950294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$sushen.coverage" NAME="sushen Coverage Results" MODIFIED="1584941293796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$run.coverage" NAME="run Coverage Results" MODIFIED="1585023042916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bert_Chinese_Text_Classification_Pytorch_master$update.coverage" NAME="update Coverage Results" MODIFIED="1584769918520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
