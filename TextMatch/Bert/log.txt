@@ -1,0 +1,36 @@
+Avg. batch proc. time: 0.3069s, loss: 0.0852: 100%|█████████▉| 7460/7462 [38:22<00:00,  3.26it/s]
+Avg. batch proc. time: 0.3069s, loss: 0.0852: 100%|█████████▉| 7461/7462 [38:22<00:00,  3.22it/s]
+Avg. batch proc. time: 0.3069s, loss: 0.0852: 100%|█████████▉| 7461/7462 [38:22<00:00,  3.22it/s]
+Avg. batch proc. time: 0.3069s, loss: 0.0852: 100%|██████████| 7462/7462 [38:22<00:00,  3.68it/s]
+Avg. batch proc. time: 0.3069s, loss: 0.0852: 100%|██████████| 7462/7462 [38:22<00:00,  3.24it/s]
+====================  Preparing for training  ====================
+	* Loading training data...
+	* Loading validation data...
+	* Building model...
+	* Validation loss before training: 0.7841, accuracy: 49.9773%, auc: 0.3825
+
+ ==================== Training Bert model on device: cuda ====================
+* Training epoch 1:
+-> Training time: 2317.3666s, loss = 0.2203, accuracy: 90.8940%
+* Validation for epoch 1:
+-> Valid. time: 26.9050s, loss: 0.2929, accuracy: 87.6505%, auc: 0.9545
+
+* Training epoch 2:
+-> Training time: 2302.4860s, loss = 0.1667, accuracy: 93.3299%
+* Validation for epoch 2:
+-> Valid. time: 25.4904s, loss: 0.3051, accuracy: 88.1277%, auc: 0.9529
+
+* Training epoch 3:
+-> Training time: 2300.7427s, loss = 0.1342, accuracy: 94.8347%
+* Validation for epoch 3:
+-> Valid. time: 25.3773s, loss: 0.3286, accuracy: 87.9005%, auc: 0.9515
+
+* Training epoch 4:
+-> Training time: 2302.8907s, loss = 0.1035, accuracy: 96.0962%
+* Validation for epoch 4:
+-> Valid. time: 25.4557s, loss: 0.3356, accuracy: 89.2297%, auc: 0.9510
+
+* Training epoch 5:
+-> Training time: 2302.2206s, loss = 0.0852, accuracy: 96.8011%
+* Validation for epoch 5:
+-> Valid. time: 25.5061s, loss: 0.4204, accuracy: 88.4344%, auc: 0.9440

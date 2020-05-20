@@ -13,14 +13,14 @@ class DataPrecessForSentence(Dataset):
     """
     对文本进行处理
     """
-    def __init__(self, bert_tokenizer, LCQMC_file, max_char_len = 103):
+    def __init__(self, bert_tokenizer, LCQMC_file, pred=None, max_char_len = 103):
         """
         bert_tokenizer :分词器
         LCQMC_file     :语料文件
         """
         self.bert_tokenizer = bert_tokenizer
         self.max_seq_len = max_char_len
-        self.seqs, self.seq_masks, self.seq_segments, self.labels = self.get_input(LCQMC_file)
+        self.seqs, self.seq_masks, self.seq_segments, self.labels = self.get_input(LCQMC_file, pred)
         
     def __len__(self):
         return len(self.labels)
@@ -51,10 +51,10 @@ class DataPrecessForSentence(Dataset):
             sentences_2 = []
             for i,j in enumerate(file):
                 sentences_1.append(j[0])
-                sentences_1.append(j[1])
+                sentences_2.append(j[1])
             sentences_1 = map(HanziConv.toSimplified, sentences_1)
             sentences_2 = map(HanziConv.toSimplified, sentences_2)
-            labels = [0] * len(sentences_1)
+            labels = [0] * len(file)
         else:
             df = pd.read_csv(file, sep='\t')
             sentences_1 = map(HanziConv.toSimplified, df['text_a'].values)

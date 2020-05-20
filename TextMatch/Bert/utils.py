@@ -164,19 +164,21 @@ def test(model, dataloader):
     accuracy /= (len(dataloader.dataset))
     return batch_time, total_time, accuracy, roc_auc_score(all_labels, all_prob)
 
-def predict(model, test_file, dataloader):
+def predict(model, test_file, dataloader, device):
     model.eval()
-    device = model.device
+    # device = model.device
     with torch.no_grad():
+        result = []
         for (batch_seqs, batch_seq_masks, batch_seq_segments, batch_labels) in dataloader:
             # Move input and output data to the GPU if one is used.
             seqs, masks, segments, labels = batch_seqs.to(device), batch_seq_masks.to(device), batch_seq_segments.to(device), batch_labels.to(device)
             _, _, probabilities = model(seqs, masks, segments, labels)
-    result = []
-    for i in test_file:
-        result.append([i[0], i[1], probabilities[i]])
+            result.append(probabilities)
+    text_result = []
+    for i, j in enumerate(test_file):
+        text_result.append([j[0], j[1], '相似' if torch.argmax(result[i][0]) == 0 else '不相似'])
 
-    return result
+    return text_result
 
 def train(model, dataloader, optimizer, epoch_number, max_gradient_norm):
     """

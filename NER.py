@@ -198,7 +198,7 @@ def predict(args, text, id2label, model, tokenizer):
     return test_submit
 
 
-def predict(text):
+def pos_predict(text):
     args = Config()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # Set seed
@@ -238,4 +238,4 @@ if __name__ == "__main__":
           "单看这张彩票，税前总奖金为5063992元。本张票面缩水后阿森纳的结果全部为0，斯图加特全部为1，",
           "你会和星级厨师一道先从巴塞罗那市中心兰布拉大道的laboqueria市场的开始挑选食材，",
           "波特与凤凰社》的率队下更加红火。乘着7月的上升气流，《发胶》、《辛普森一家》、《谍影憧憧ⅲ》"]
-    predict(text)
+    pos_predict(text)
