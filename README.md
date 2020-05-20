@@ -129,3 +129,12 @@ result = main(text)
 1. 关系抽取，此部分实验作者正在进行检测。
 2. 文本翻译
 
+
+
+# 资料参考
+
+[https://github.com/lonePatient/BERT-NER-Pytorch](https://github.com/lonePatient/BERT-NER-Pytorch)
+
+https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
+
+https://github.com/zhaogaofeng611/TextMatch
