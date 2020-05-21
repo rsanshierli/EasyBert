@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae537198-8d31-4aa4-9198-8488c864d17a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextMatch/Bert/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextMatch/Bert/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +165,7 @@
       <workItem from="1589880331022" duration="1963000" />
       <workItem from="1589887621651" duration="737000" />
       <workItem from="1589888371589" duration="6000" />
+      <workItem from="1590047705338" duration="27000" />
     </task>
     <servers />
   </component>

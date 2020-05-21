@@ -1,5 +1,5 @@
 # EasyBert
-基于Pytorch的Bert应用，包括命名实体识别、情感分析、文本分类以及文本相似度等(后续更新其他方向相关模块)。各个子项目大都为开源工作，本项目仅做相应处理以及提供一个已训练的预测接口，方便需求者进行快速的使用。本项目仅作为学习与研究使用，若存在侵权行为，请原作者务必联系我进行协商处理。
+基于Pytorch的Bert应用，包括命名实体识别、情感分析、文本分类以及文本相似度等(后续更新其他方向相关模块)，并有相关数据与深度训练优化方式api。各个子项目大都为开源工作，本项目仅做相应处理以及提供一个已训练的预测接口，方便需求者进行快速的使用。本项目仅作为学习与研究使用，若存在侵权行为，请原作者务必联系我进行协商处理。
 
 
 
@@ -33,7 +33,7 @@ python >= 3.7 Pytorch >= 1.14 transformers >= 2.8.0
 
 ## 情感分析 Sentiment.py
 
-原始训练数据：该部分原数据因项目原因不提供，如需重新训练可更换其他开源数据集
+原始训练数据：该部分原数据因项目原因不提供，如需重新训练可更换其他开源数据集.
 
 ```python
 test = ['#你好2020#新年第一天元气满满的早起出门买早饭结果高估了自己抗冻能力回家成功冻发烧（大概是想告诉我2020要量力而行）然鹅这并不影响后续计划一出门立马生龙活虎新年和新??更配哦??看了误杀吃了大餐就让新的一年一直这样美滋滋下去吧??',
@@ -122,6 +122,41 @@ result = main(text)
 '''
 ```
 
+## 文本增强
+
+1. EDA
+2. 回译
+
+注：暂时没有提供接口进行集成，已写好相关功能主函数及附带使用例子，若需可自行调。
+
+## 训练优化
+
+1. EMA 指数滑动平均
+2. FGM 对抗训练api
+3. PGD 对抗训练api
+
+相关源代码已有优秀开源，本项目借鉴训练时部分加入相关训练优化trcik，部分保持原始代码复现格式，若需相关训练优化功能，相关代码及使用方式已给出，按需使用。
+
+```python
+# 权重滑动平均，对最近的数据给予更高的权重
+uasge：
+# 初始化
+ema = EMA(model, 0.999)
+ema.register()
+
+# 训练过程中，更新完参数后，同步update shadow weights
+def train():
+    optimizer.step()
+    ema.update()
+
+    # eval前，apply shadow weights；
+    # eval之后（保存模型后），恢复原来模型的参数
+    def evaluate():
+        ema.apply_shadow()
+        # evaluate
+        ema.restore()
+```
+
 
 
 # 后续工作
@@ -133,8 +168,16 @@ result = main(text)
 
 # 资料参考
 
+致谢！
+
 [https://github.com/lonePatient/BERT-NER-Pytorch](https://github.com/lonePatient/BERT-NER-Pytorch)
 
 https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
 
 https://github.com/zhaogaofeng611/TextMatch
+
+https://github.com/yongzhuo/nlp_xiaojiang
+
+[https://fyubang.com/2019/10/15/adversarial-train/](https://fyubang.com/2019/10/15/adversarial-train/)
+
+[https://zhuanlan.zhihu.com/p/68748778](https://zhuanlan.zhihu.com/p/68748778)
